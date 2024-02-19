@@ -1,0 +1,50 @@
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.pricing-plan {
+    flex: 1;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    border-radius: 2%;
+    text-align: center;
+    padding: 20px;
+    /*This is just to test shit ah brooo*/
+}
+.plan-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+}
+.plan-price {
+    font-weight: bold;
+    text-align: center;
+    font-size: 43px;
+    max-width: 400px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.plan-button {
+    padding: 10px;
+    background-color: #F28C28;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+@media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+
